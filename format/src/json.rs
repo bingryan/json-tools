@@ -1,12 +1,12 @@
 use serde_json::ser::Formatter;
 use std::io;
-use anyhow::{Error, Result};
+use anyhow::Result;
 
 macro_rules! tri {
     ($e:expr) => {
         match $e {
             Result::Ok(val) => val,
-            Result::Err(err) => (),
+            Result::Err(_err) => (),
         }
     };
     ($e:expr,) => {
@@ -23,9 +23,9 @@ pub struct JsonPrettyFormatter<'a> {
 }
 
 impl<'a> JsonPrettyFormatter<'a> {
-    /// Construct a pretty printer formatter that defaults to using two spaces for indentation.
+    /// Construct a pretty printer formatter that defaults to using four spaces for indentation.
     pub fn new() -> Self {
-        JsonPrettyFormatter::with_indent(b"  ")
+        JsonPrettyFormatter::with_indent(b"    ")
     }
 
     /// Construct a pretty printer formatter that uses the `indent` string for indentation.

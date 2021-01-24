@@ -93,6 +93,8 @@ version = "0.1.0"
 dependencies = [
  "error",
  "format",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
@@ -158,6 +160,10 @@ dependencies = [
  "quote",
  "unicode-xid",
 ]
+
+[[package]]
+name = "sys"
+version = "0.1.0"
 
 [[package]]
 name = "textwrap"
