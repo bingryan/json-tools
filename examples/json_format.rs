@@ -6,8 +6,7 @@ use format::json::JsonPrettyFormatter;
 
 
 fn main() {
-    let obj = json!({
-                            "name": "ryan",
+    let obj = json!({"name": "ryan",
                             "age": 100.5,
                             "man": true,
                             "female": false,

@@ -10,14 +10,15 @@ edition = "2018"
 serde_json = "1.0.61"
 serde = "1.0.120"
 
-format = { path = "format" }
-error = { path = "error" }
+format = { path = "module/format" }
+error = { path = "module/error" }
 
 [workspace]
 members = [
-    "format",
-    "error",
+    "module/format",
+    "module/error",
     # bin
     "bin/json",
+    "bin/timestamp",
     "bin/sys"
 ]
