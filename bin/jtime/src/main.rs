@@ -26,7 +26,7 @@ fn run() -> Result<bool> {
         .setting(AppSettings::DisableHelpSubcommand)
         .setting(AppSettings::VersionlessSubcommands)
         .about(
-            "json time is a command-line time of human command.",
+            "json time is a human time command.",
         )
         .args(&[Arg::with_name("timestamp")
             .short("t")

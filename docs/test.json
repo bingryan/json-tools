@@ -1,0 +1,16 @@
+{"object": {
+    "address": {
+      "city": [
+        "New York",
+        "California"
+      ],
+      "street": "10 Downing Street"
+    },
+    "age": 100.5,
+    "female": false,
+    "man": true,
+    "name": "ryan",
+    "phones": [
+      "+44 1234567",
+      "+44 2345678"
+    ]}}
