@@ -19,13 +19,9 @@ json-tools is a collection of commonly used json processor tools 🌹.
 
 ## Screenshot
 
-<p align="center">
-  <img src="/docs/images/json.png">
-</p>
+![](docs/images/json.png)
+![](docs/images/jtime.png)
 
-<p align="center">
-  <img src="/docs/images/jtime.png">
-</p>
 
 ## Development
 

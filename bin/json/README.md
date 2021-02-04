@@ -1,3 +1,5 @@
 ## json: a command-line JSON processor
 
-![](../../docs/images/json.png)
+<p align="center">
+  <img src="/docs/images/json.png">
+</p>

@@ -1,3 +1,5 @@
 ## jtime: time command for Humans™.
 
-![](../../docs/images/jtime.png)
+<p align="center">
+  <img src="/docs/images/jtime.png">
+</p>
