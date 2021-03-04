@@ -28,5 +28,6 @@ members = [
     # bin
     "bin/json",
     "bin/jtime",
+    "bin/url",
 #    "bin/sys"
 ]
