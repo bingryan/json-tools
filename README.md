@@ -33,3 +33,8 @@ make install
 
 ###  Contributions
 If you want to contribute to `json-tools`, please see [CONTRIBUTING Doc](./CONTRIBUTING.md)
+
+
+## Thanks
+
+- refers to [bat](https://github.com/sharkdp/bat) in processing input logic.
